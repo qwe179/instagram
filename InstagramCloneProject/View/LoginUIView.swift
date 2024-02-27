@@ -12,9 +12,6 @@ import SwiftUI
 struct LoginUIView: View {
     @Environment(\.colorScheme) var colorScheme
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-//    @State private var emailAddress: String = ""
-//    @State private var password: String = ""
-   // @State private var isEditing: Bool = false
     @State private var keyboardHeight: CGFloat = 0
     @ObservedObject var viewModel: LoginViewModel = LoginViewModel()
 
